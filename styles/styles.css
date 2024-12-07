@@ -870,6 +870,7 @@ body.dark-mode .modal-content {
 }
 
 
+
 /* Media Query for Tablets (480px and below) */
 @media screen and (max-width: 480px) {
   .header-main-container {
@@ -926,6 +927,16 @@ body.dark-mode .modal-content {
     letter-spacing: 5px;
     font-weight: 600px;
     font-size: 40px;
+  }
+}
+
+
+
+/* Media Query for Tablets (430px and below) */
+@media screen and (max-width: 430px) {
+  .header-main-container {
+    height: 850px;
+    background-size: cover;
   }
 }
 
